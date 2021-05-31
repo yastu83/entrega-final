@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+$colorverde: rgb(153, 226, 89 );
+$colorrosa: rgb(251, 183, 127);
+$colorceleste: rgb(98, 245, 239);
+
+* {
+	margin: 0;
+	padding: 0px;
+}
+
+
+.backNav{
+	background-color: black;
+	li a{
+	text-transform: uppercase;
+	color: white;
+	}
+
+}
+
+navBar{
+	
+	background-color: black;
+}
+
+
+
+
+
+
+.fondoNav {
+	background-color: black;
+	position: fixed;
+	margin-top: 50px;
+	
+
+} 
+
+
+.fondoSlider{
+	h5{
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+
+	}
+	p{
+	font-size: 10px;
+	letter-spacing: 20px;
+	}
+}
+
+.tituloMe {
+	text-align: center;
+	
+	margin-top: 50px;
+	h1{
+	font-size: 50px;
+	color: black;
+	font-family: rubik, sans-serif;
+	letter-spacing: 2px;
+	}
+}
+
+
+
+.margenMe {
+	margin-top: 100px;
+}
+
+.textoMe {
+	border-left: 2px solid black;
+}
+
+
+
+
+.fondoFamilia {
+	background-color: white;
+	margin-top: 200px;
+
+}
+
+
+
+.tituloFamilia{
+    text-align: right;
+    text-transform: capitalize;
+	h3{
+	font-size: 50px;
+	color: black;
+	text-transform: uppercase;
+	
+	
+	}
+}
+
+.textoFamilia {
+	background-color: lightgrey;
+	padding: 60px;
+	border-left: 2px solid black;
+}
+
+.parrafoFamilia {
+	font-size: 20px;
+	
+
+
+}
+
+.imagenesFamilia {
+	margin-top: 200px;
+}
+
+.margenFooter{
+	margin-top: 200px;
+	padding: 30px;
+}
+
+
+
+footer {
+	background-color: black;
+
+}
+
+h6 {
+	color: white;
+
+}
+
+.tituloAutor{
+	text-align: center;
+	h6{
+	text-transform: uppercase;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+/*pagina bodas*/
+
+.textoBodas {
+	border-right: 3px solid black;
+}
+
+.fondoBoda01 {
+	background-color: lightgrey;
+
+}
+
+.textoBoda01 {
+	border-left: 3px solid black;
+}
+
+.fondoBoda02 {
+	background-color: lightgreen;
+
+}
+
+.textoBoda02 {
+	border-right: 3px solid black;
+
+}
+
+.fondoBoda03 {
+	background-color: white;
+}
+
+/*pagina publicidad*/
+
+.tituloPublicidad {
+	text-align: center;
+}
+
+.textoPublicidad{
+	border-top: 2px solid black;
+}
+
+.tituloPublicidad01{
+	text-align: center;
+}
+.imagenesPublicidad01{
+	text-align: center;
+}
+
+.textoPublicidad01{
+	text-align: center;
+	border-top: 2px solid black;
+}
+
+.separacionFondo{
+	padding: 10px;
+}
+
+.fondoPublicidad03{
+	background-color: lightblue;
+}
+
+/*pagina lifestyle*/
+
+.fondoTextolifestyle{
+	background-color: lightgrey;
+	border-right: 3px solid black;
+}
+
+/*pagina contacto*/
+
+.textoFormulario{
+	text-align: center;
+	background-color: lightgreen;
+	border: 3px solid black;
+}
+
